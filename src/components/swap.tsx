@@ -63,7 +63,7 @@ export default function SwapInterface() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
-      <main className="flex flex-1 items-start justify-center px-4 py-8">
+      <main className="flex flex-1 items-start justify-center px-4 py-8 ">
         <Card className="w-full max-w-md border-none bg-card/50 p-4 bg-zinc-900">
           <div className="mb-6 space-y-4 bg-black"></div>
 
@@ -102,7 +102,9 @@ export default function SwapInterface() {
             </Button>
           )}
         </Card>
+       
       </main>
+      
     </div>
   );
 }
