@@ -39,7 +39,7 @@ export function TokenSelector({
           {token.symbol}
         </Button>
         <input
-          onChange={(e) => onAmountChange(parseFloat(e.target.value) || 0)} // Call handler with new value
+          onChange={(e) => onAmountChange(parseFloat(e.target.value) || 0)} 
           type="number"
           placeholder="0.00"
           value={amount}
